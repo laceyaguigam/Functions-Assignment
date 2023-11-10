@@ -3,7 +3,10 @@
 // console.log(min(0, 10)); // will output 0.
 // console.log(min(0, -10)); // will output -10
 
-
+function small(n) {
+    return Math.min(n);
+}
+console.log(small(6, 8));
 
 
 
