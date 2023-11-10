@@ -16,7 +16,7 @@
 
 
 function findCircumference(radius) {
-    return 2 * Math.PI * radius;
+    return 2 * Math.PI * radius; //circumference formula C=2(pi)r
 }
 console.log(findCircumference(10));  //outputs 62.83
 
