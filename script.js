@@ -8,7 +8,15 @@ function small(n) {
 }
 console.log(small(6, 8));
 
+    /* can also be written as  */
 
+        if (num1 < num2) {
+            return num1;
+        } else if (num1 > numb2) {
+            return num2;
+        } else (num1 == num2) {
+            return ('equal');
+        } ;
 
 
 // 2. Write a function that takes the radius of a circle and outputs it’s approximate circumference (the formula for circumference is 2 *pi * radius, you may use 3.14 for pi).
@@ -34,3 +42,15 @@ function countries(letters) {
     return letters.length;
 }
 console.log(countries("a", "canada"));   //can only get it to output either 1 or 0
+
+
+
+
+/* can also be written as */
+
+
+
+
+
+
+
