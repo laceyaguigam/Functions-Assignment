@@ -43,12 +43,31 @@ function countries(letters) {
 }
 console.log(countries("a", "canada"));   //can only get it to output either 1 or 0
 
+let counter = 0;
+
+function searchString (letter , word) {
+    for (let i = 0; i < word.length; i++) {
+        console.log(word[i].tolowercase());
+    } if (letter.lower == letter.lower) {
+        counter++
+    } 
+} 
+return counter;
+console.log(searchString ('a' , 'canada'));
 
 
 
 /* can also be written as */
 
+let counter = 0;
 
+function searchString (letter , word) {
+    for (let i = 0; i < word.length; i++) {
+        
+    } if (word[i].lower == letter.lower) {
+        return letter++
+    } 
+} return counter;
 
 
 
